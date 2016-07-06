@@ -1,12 +1,12 @@
 #post_show {
 	padding-top: 2rem;
 	.post_image_description {
-		width: 50%;
+		width: 35%;
 		float: left;
 		margin-right: 5%;
 	}
 	.post_data {
-		width: 15%;
+		width: 20%;
 		float: left;
 		.button {
 			width: 100%;
@@ -37,8 +37,9 @@
 		color: #333233;
 	}
 	img {
-		width: 100%;
-		border-radius: .3rem;
+		width: 200px;
+		border-radius: 50%;
+		height: 200px;
 	}
 	.username {
 		color: #969696;
@@ -58,6 +59,9 @@
 	}
 }
 
+.description{
+	margin-top: 36px;
+}
 #comments {
 	padding-bottom: 4rem;
 	width: 50%;

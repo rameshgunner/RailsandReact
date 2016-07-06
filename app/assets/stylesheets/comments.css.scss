@@ -10,18 +10,18 @@
 }
 #posts {
 	.post {
-		background: #F8F9FA;
-		width: 30%;
+		background: #ffffff;
+		width: 22%;
 		float: left;
-		margin: 1rem 1.5%;
-		border: 1px solid #E4E4E4;
-		border-radius: 0.37rem;
+		margin: 4rem 1.5%;
+
 		.post_image {
-			height: 200px;
-			overflow: hidden;
-			img {
-				width: 100%;
-				border-radius: .3rem .3rem 0 0;
+				height: 160px;
+				overflow: hidden;
+				img {
+					width: 140px;
+					height: 140px;
+					border-radius: 50%;
 			}
 		}
 		.post_content {

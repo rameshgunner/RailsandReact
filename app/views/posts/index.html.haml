@@ -1,15 +1,8 @@
-- if user_signed_in?
-	.index-intro-in
-		.alert.alert-success
-			%p Welcome to CloudFactory Restaurant Application
-		%br
-		.index-intro-button
-			= link_to "Add Restaurant", new_post_path, class: "button"
-- else
-	.index-intro-out
-		.alert.alert-warning
-			%p Seems you are not Logged In !!
-%br
+.index-intro-in
+	%br
+	.index-intro-button
+		= link_to "Add Team Members	", new_post_path, class: "button"
+
 #posts
 	- @post.each do |post|
 		.post
@@ -20,9 +13,5 @@
 					%h2= link_to post.name, post
 				.data.clearfix
 					%p.username
-						Posted by
-						= post.user&.username || 'N/A'
-				.data.clearfix
-					%i.fa.fa-thumbs-up
-						= post.get_likes.size
-						Likes
+						Position: 
+						= post.status

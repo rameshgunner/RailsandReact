@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	width: 100%;
 	padding: 2rem 0;
-	background: #eee !important;	
+	background: #f0f0f0 !important;	
 	border-bottom: 1px solid #E4E4E4;
 	#logo {
 		img {
@@ -130,7 +130,10 @@ header {
 .index-intro-in{
 	margin-left: auto;
   margin-right: auto;
-  width: 38%;
+  width: 36%;
+  p{
+	text-align: center;
+	}
 }
 .index-intro-out{
 	margin-left: auto;
@@ -141,7 +144,7 @@ header {
 {
 	margin-left: auto;
 	margin-right: auto;
-	width:40%;
+	width:45%;
 }
 .bread-back{
 	float: right;

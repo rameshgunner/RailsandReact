@@ -1,55 +1,45 @@
-.show-intro
-	- if user_signed_in?
-		.alert.alert-info
-			Welcome,
-			= link_to current_user.username
-	- else
-		.alert.alert-warning
-			%p Sign In to add reviews
+%h4= link_to "Home", root_path
+.index-intro-in
+  %br
+  .index-intro-button
+    = link_to "Add Team Members ", new_post_path, class: "button"
+%br
 %br
 #post_show
-	%h1= @post.name
-	%p.username
-		Shared by
-		= @post.user&.username || 'N/A'
-	.clearfix
-		.post_image_description
-			= image_tag @post.avatar.url(:thumb)
-			.text-info
-				%br
-				= simple_format(@post.address)
-			.description
-				Details:
-				= simple_format(@post.description)
-		.post_data
-			%p.data
-				%i.fa.fa-thumbs-up
-					= link_to "Like", like_post_path(@post), method: :get
-				%i.fa.fa-thumbs-down
-					= link_to "Dislike", dislike_post_path(@post), method: :get
-				%br
-				%i.fa.fa-comments-o
-				= pluralize(@post.comments.count, "Review")
-			= link_to "Edit Restaurant Details", edit_post_path(@post), class: "data"
-			= link_to "Delete Restaurant", post_path(@post), method: :delete, data: { confirm: "Are you sure?" }, class: "data"
-	.clearfix.wrapper
+  .post_image_description
+    = link_to image_tag @post.avatar.url(:thumb)
+    .description
+      Details:
+      = simple_format(@post.description)
+  
+  %h1= @post.name
+  %br
+  .text-info
+    = simple_format(@post.status)
+  .clearfix
+    .post_data
+      / %p.data
+      /   = pluralize(@post.comments.count, "Comments")
+      %br
+      %br
+      = link_to "Edit Teammate Descriptions", edit_post_path(@post), class: "data"
+      = link_to "Delete Teammate Data", post_path(@post), method: :delete, data: { confirm: "Are you sure?" }, class: "data"
 
 
 
 
 
-#comments
-	%p
-		%i.fa.fa-thumbs-up
-			= @post.get_upvotes.size
-			Likes
-		%i.fa.fa-thumbs-down
-			= @post.get_downvotes.size
-			Dislikes
-	= pluralize(@post.comments.count, "Review")
-	- @comments.each do |comment|
-		.comment
-			%p.username= comment.user.username
-			%p.content= comment.content
+/ #comments
+/   %p
+/   = pluralize(@post.comments.count, "Review")
+/   - @comments.each do |comment|
+/     .comment
+/       %p.username= comment.user.username
+/       %p.content= comment.content
 
-	= render "comments/form"
+/   = render "comments/form"
+
+
+
+
+/ @post.user&.username || 'N/A'
