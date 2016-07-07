@@ -1,3 +1,5 @@
+= react_component 'Header'
+
 !!!HTML
 %head
     %title Team Members
@@ -8,7 +10,8 @@
     = csrf_meta_tags
 
 %body
-
+    %header
+        #logo= link_to "Home", root_path
     %p.alert= alert
     .wrapper
         = render 'layouts/messages' 

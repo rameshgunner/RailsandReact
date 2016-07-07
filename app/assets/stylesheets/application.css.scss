@@ -38,21 +38,24 @@ header {
 	background: #f0f0f0 !important;	
 	border-bottom: 1px solid #E4E4E4;
 	#logo {
-		img {
+
 			float: left;
 			font-size: 1.75rem;
 			width: 106px;
+			margin-left: 12.5rem;
+			margin-top: -12px;
+
 			a {
 				color: #333233;
 				text-decoration: none;
 				&:hover {
 					color: #50A7C7;
 				}
-			}
+
 		}
 	}
 	nav {
-		float: right;
+		float: left;
 		a {
 			margin-left: 1.5rem;
 			line-height: 2;
@@ -65,35 +68,7 @@ header {
 	}
 }
 
-/*Login*/
-.registration-bg {
-  height: 100%;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.login-image img{
-	width: 80%;
-	margin-left: 40px;
-}
-
-.panel {
-  border-radius: 8px;
-     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
-}
-.remember-me{
-	margin-left: 20px;
-}
-.panel-heading{
-  h2 {
-    text-align: center;
-    font-weight: 100;
-	font-family: helvetica;
-	color: #727272;
-  }
-}
 
 .panel-body{
 	margin-bottom: 5px;
@@ -145,6 +120,13 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	width:45%;
+	a{
+		&:hover,
+ 		&:focus{
+			color: #23527c;
+	  		text-decoration: none;
+	  	}
+	}
 }
 .bread-back{
 	float: right;

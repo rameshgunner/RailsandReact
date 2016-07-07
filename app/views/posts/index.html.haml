@@ -1,3 +1,5 @@
+= react_component 'Main'
+
 .index-intro-in
 	%br
 	.index-intro-button
@@ -13,5 +15,8 @@
 					%h2= link_to post.name, post
 				.data.clearfix
 					%p.username
-						Position: 
+						Status: 
 						= post.status
+				.data.clearfix
+					.btn.btn-primary
+						= link_to "View	",post
