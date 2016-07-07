@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Resturant
 <p> CFRestura is a Ruby on Rails Application developed by two team members during the 2-days assignment campaign. It has features like:</p>
   <ul>
@@ -43,3 +44,7 @@ Inspired from:
   *Ruby on Rails 3 Tutorial by Michael Harlt
   
 
+=======
+# teammates
+An Ruby on Rails Application integrated with ReactJS 
+>>>>>>> 6ac2e9bbd080f85873d3c4098715fa4143278d27
