@@ -730,3 +730,835 @@ ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/norm
             FROM sqlite_temp_master
             WHERE name='index_votes_on_voter_id_and_voter_type_and_vote_scope' AND type='index'
 
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-08 00:08:57 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.haml (90.0ms)
+  Rendered posts/new.html.haml within layouts/application (96.9ms)
+  Rendered layouts/_messages.html.erb (1.6ms)
+Completed 200 OK in 816ms (Views: 766.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-89eb02156055e30ed12e0c03fd1c2d6fca3ad4183e8110516309e757ff291e4f.css?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react.self-5affcdd29d08b7bd0cb3e76750e03d51b83911b6cd114fdd3cfea2726d5d110c.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/components/_all_items.self-9514e076bfe1b6658d32e0d8be3f8cbdeacc16577eaebc20096f6e5f51306c89.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/components/_main.self-69856613cc1b32e04792d32d49165ac8163567b9d4a5d8fcb2dc0bd0890dd643.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/components/_header.self-335c743d40844af9a94f0546012d3164d0ac1e0a722c1abaf05c0302d8b2203f.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:58 +0545
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/showdown.self-f9922d397c4caa5f741280ab45c19ca67873aa37efd5cd98210558fe869f8804.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:08:59 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 00:09:00 +0545
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (18.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 141ms (Views: 139.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:09:00 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.0ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.4ms)
+
+
+Started GET "/posts/19" for 127.0.0.1 at 2016-07-08 00:09:04 +0545
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered posts/show.html.haml within layouts/application (15.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 170ms (Views: 153.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:09:05 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (80.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 00:19:44 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (40.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 768ms (Views: 732.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react.self-5affcdd29d08b7bd0cb3e76750e03d51b83911b6cd114fdd3cfea2726d5d110c.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/components/_all_items.self-9514e076bfe1b6658d32e0d8be3f8cbdeacc16577eaebc20096f6e5f51306c89.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/components/_header.self-335c743d40844af9a94f0546012d3164d0ac1e0a722c1abaf05c0302d8b2203f.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/components/_main.self-69856613cc1b32e04792d32d49165ac8163567b9d4a5d8fcb2dc0bd0890dd643.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/showdown.self-f9922d397c4caa5f741280ab45c19ca67873aa37efd5cd98210558fe869f8804.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:45 +0545
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:46 +0545
+
+
+Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for 127.0.0.1 at 2016-07-08 00:19:46 +0545
+
+
+Started GET "/assets/application.self-89eb02156055e30ed12e0c03fd1c2d6fca3ad4183e8110516309e757ff291e4f.css?body=1" for 127.0.0.1 at 2016-07-08 00:19:46 +0545
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:19:46 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.3ms)
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:19:47 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (66.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 00:22:03 +0545
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (20.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 205ms (Views: 203.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-89eb02156055e30ed12e0c03fd1c2d6fca3ad4183e8110516309e757ff291e4f.css?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react.self-5affcdd29d08b7bd0cb3e76750e03d51b83911b6cd114fdd3cfea2726d5d110c.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/components/_header.self-335c743d40844af9a94f0546012d3164d0ac1e0a722c1abaf05c0302d8b2203f.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/components/_all_items.self-9514e076bfe1b6658d32e0d8be3f8cbdeacc16577eaebc20096f6e5f51306c89.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/components/_main.self-69856613cc1b32e04792d32d49165ac8163567b9d4a5d8fcb2dc0bd0890dd643.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:04 +0545
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/showdown.self-f9922d397c4caa5f741280ab45c19ca67873aa37efd5cd98210558fe869f8804.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:22:05 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-08 00:24:43 +0545
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (16.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/comments.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/comments.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/posts.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/posts.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/random.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/random.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/normalize.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/comments.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/comments.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/posts.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/posts.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/random.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/random.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gunner/Desktop/restura/app/assets/stylesheets/normalize.css.scss to /home/gunner/Desktop/restura/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_haml__3378168226473807666_47058772726160 at /home/gunner/Desktop/restura/app/views/layouts/application.html.haml:6)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 2393ms (Views: 2391.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-106234790b6ea43ddb15b7a29f44a56bc654682d82c4d23ccbb9a528c1e6979e.css?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_mount.self-529311908dc83d0737d62f1a5eb4e2fa326f2040e2d2755b4fd78d2c09c5cc15.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react.self-5affcdd29d08b7bd0cb3e76750e03d51b83911b6cd114fdd3cfea2726d5d110c.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks.self-19cb50a828b179c80e0ef6463ceb612ae3e75f377fb2dd6f4afdc3b46ae75d56.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_pjax.self-e8fc58103934b6c8054d5fbfe37ec92f2ef7719bc90566026fe9fe19e0e2cf45.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_event_setup.self-0cd254aea0ec32dd175eff42a443f912c283295c0235384ae7cd425cd8f7c3e5.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/react_ujs.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/components/_header.self-335c743d40844af9a94f0546012d3164d0ac1e0a722c1abaf05c0302d8b2203f.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/components/_all_items.self-9514e076bfe1b6658d32e0d8be3f8cbdeacc16577eaebc20096f6e5f51306c89.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/components/_main.self-69856613cc1b32e04792d32d49165ac8163567b9d4a5d8fcb2dc0bd0890dd643.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:45 +0545
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/application.self-16c207b3ca1b52afcfc7f4b662487caf1bbe084a6656bb15f693ab9de2d11be7.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/showdown.self-f9922d397c4caa5f741280ab45c19ca67873aa37efd5cd98210558fe869f8804.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:24:46 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (35.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.7ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (81.2ms)
+
+
+Started GET "/posts/19" for 127.0.0.1 at 2016-07-08 00:24:55 +0545
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered posts/show.html.haml within layouts/application (10.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 184ms (Views: 169.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/stylesheets/normalize.css" for 127.0.0.1 at 2016-07-08 00:24:55 +0545
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/normalize.css"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gunner/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.3ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /home/gunner/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (73.4ms)
